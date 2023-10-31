@@ -8,3 +8,4 @@ resource "aws_instance" "multiple_apps" {
     tags = {
         Name="Raptr"
     }
+}
