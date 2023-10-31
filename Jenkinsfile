@@ -8,7 +8,7 @@ pipeline {
        
         stage('Checkout Git') {
             steps {
-               git branch: 'main', url: 'https://github.com/Mounika420/POC2.git'
+               git branch: 'main', url: 'https://github.com/Mounika420/New_pipeline.git'
         }
        
         }
