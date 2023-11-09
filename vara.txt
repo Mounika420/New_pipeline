@@ -1,1 +1,14 @@
-Hi All. Good Morning.
+variable "instance_type" {
+  description = "EC2 instance type"
+  type        = string
+  default     = "t2.micro"
+}
+# Define an input variable for the EC2 instance AMI ID
+variable "ami-id" {
+  description = "ami-0c42696027a8ede58"
+  type        = string
+}
+#Define the name of the Instance
+variable "name" {
+  default = "Creating_Keypair_tf"
+}
